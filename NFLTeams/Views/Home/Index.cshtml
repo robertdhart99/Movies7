@@ -19,7 +19,7 @@
         </div>
         <h3 class="mt-3">Division</h3>
         <div class="list-group">
-            @foreach (Division div in Model.Divisions)
+            @foreach (Genre div in Model.Divisions)
             {
                 <a asp-action="Index"
                    asp-route-activeConf="@Model.ActiveConf"
@@ -32,7 +32,7 @@
     </div>
     <div class="col-sm-9">
         <ul class="list-inline">
-            @foreach (Team team in Model.Teams)
+            @foreach (Movie team in Model.Teams)
             {
                 <li class="list-inline-item">
                     <a asp-action="Details" asp-route-id="@team.TeamID">

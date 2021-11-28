@@ -28,7 +28,7 @@ namespace NFLTeams.Controllers
                 var cookies = new NFLCookies(HttpContext.Request.Cookies);
                 string[] ids = cookies.GetMyTeamIds();
 
-                List<Team> myteams = new List<Team>(); 
+                List<Movie> myteams = new List<Movie>(); 
                 if (ids.Length > 0)
                     myteams = context.Teams.Include(t => t.Conference)
                         .Include(t => t.Division)
@@ -44,7 +44,7 @@ namespace NFLTeams.Controllers
                 Divisions = context.Divisions.ToList()
             };
 
-            IQueryable<Team> query = context.Teams;
+            IQueryable<Movie> query = context.Teams;
             if (activeConf != "all")
                 query = query.Where(
                     t => t.Conference.ConferenceID.ToLower() == activeConf.ToLower());
