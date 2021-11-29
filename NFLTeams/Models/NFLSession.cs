@@ -16,12 +16,12 @@ namespace NFLTeams.Models
             this.session = session;
         }
 
-        public void SetMyTeams(List<Movie> teams) {
+        public void SetMyTeams(List<Team> teams) {
             session.SetObject(TeamsKey, teams);
             session.SetInt32(CountKey, teams.Count);
         }
-        public List<Movie> GetMyTeams() =>
-            session.GetObject<List<Movie>>(TeamsKey) ?? new List<Movie>();
+        public List<Team> GetMyTeams() =>
+            session.GetObject<List<Team>>(TeamsKey) ?? new List<Team>();
         public int? GetMyTeamCount() => session.GetInt32(CountKey);
 
         public void SetName(string userName = "friend")

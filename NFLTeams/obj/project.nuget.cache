@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UbizXVMIpwjqkoSMPQZpNG+gINU965I87f5Q4DYAllw0lIuV9h1Zemu7HRcqe4WEqYu3gqqAy4w7YEUbp4+pxA==",
+  "dgSpecHash": "S2CZ3kzbxRX2n9bnFwcSK5j1Mx6/yMxG4JDxFIrpSj2HsEkeOZ1/f61wzKrMWRKWuZc99Bt4/xK7Zm9l3Hg/QQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hempk\\OneDrive\\Desktop\\Movies7\\NFLTeams\\Movies7.csproj",
+  "projectFilePath": "C:\\Users\\hempk\\OneDrive\\Desktop\\School\\WebServer\\FinalProject\\Ch09Ex1NFLTeams\\NFLTeams\\NFLTeams.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hempk\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.0\\microsoft.aspnetcore.jsonpatch.3.1.0.nupkg.sha512",
     "C:\\Users\\hempk\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.0\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.0.nupkg.sha512",

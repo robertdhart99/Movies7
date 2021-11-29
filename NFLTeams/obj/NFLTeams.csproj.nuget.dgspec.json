@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hempk\\OneDrive\\Desktop\\Movies7\\NFLTeams\\NFLTeams.csproj": {}
+    "C:\\Users\\hempk\\OneDrive\\Desktop\\School\\WebServer\\FinalProject\\Ch09Ex1NFLTeams\\NFLTeams\\NFLTeams.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hempk\\OneDrive\\Desktop\\Movies7\\NFLTeams\\NFLTeams.csproj": {
+    "C:\\Users\\hempk\\OneDrive\\Desktop\\School\\WebServer\\FinalProject\\Ch09Ex1NFLTeams\\NFLTeams\\NFLTeams.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hempk\\OneDrive\\Desktop\\Movies7\\NFLTeams\\NFLTeams.csproj",
+        "projectUniqueName": "C:\\Users\\hempk\\OneDrive\\Desktop\\School\\WebServer\\FinalProject\\Ch09Ex1NFLTeams\\NFLTeams\\NFLTeams.csproj",
         "projectName": "NFLTeams",
-        "projectPath": "C:\\Users\\hempk\\OneDrive\\Desktop\\Movies7\\NFLTeams\\NFLTeams.csproj",
+        "projectPath": "C:\\Users\\hempk\\OneDrive\\Desktop\\School\\WebServer\\FinalProject\\Ch09Ex1NFLTeams\\NFLTeams\\NFLTeams.csproj",
         "packagesPath": "C:\\Users\\hempk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hempk\\OneDrive\\Desktop\\Movies7\\NFLTeams\\obj\\",
+        "outputPath": "C:\\Users\\hempk\\OneDrive\\Desktop\\School\\WebServer\\FinalProject\\Ch09Ex1NFLTeams\\NFLTeams\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hempk\\AppData\\Roaming\\NuGet\\NuGet.Config",

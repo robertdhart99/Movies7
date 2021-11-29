@@ -19,7 +19,7 @@ namespace NFLTeams.Models
             responseCookies = cookies;
         }
 
-        public void SetMyTeamIds(List<Movie> myteams)
+        public void SetMyTeamIds(List<Team> myteams)
         {
             List<string> ids = myteams.Select(t => t.TeamID).ToList();
             string idsString = String.Join(Delimiter, ids);

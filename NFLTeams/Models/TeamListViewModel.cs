@@ -6,7 +6,7 @@ namespace NFLTeams.Models
     public class TeamListViewModel : TeamViewModel
     {
         public String UserName { get; set; }
-        public List<Movie> Teams { get; set; }
+        public List<Team> Teams { get; set; }
 
         // use full properties for Conferences and Divisions 
         // so can add 'All' item at beginning
@@ -21,12 +21,12 @@ namespace NFLTeams.Models
             }
         }
 
-        private List<Genre> divisions;
-        public List<Genre> Divisions {
+        private List<Division> divisions;
+        public List<Division> Divisions {
             get => divisions; 
             set {
-                divisions = new List<Genre> {
-                    new Genre { DivisionID = "all", Name = "All" }
+                divisions = new List<Division> {
+                    new Division { DivisionID = "all", Name = "All" }
                 };
                 divisions.AddRange(value);
             }

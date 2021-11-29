@@ -5131,11 +5131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hempk\\OneDrive\\Desktop\\Movies7\\NFLTeams\\Movies7.csproj",
-      "projectName": "Movies7",
-      "projectPath": "C:\\Users\\hempk\\OneDrive\\Desktop\\Movies7\\NFLTeams\\Movies7.csproj",
+      "projectUniqueName": "C:\\Users\\hempk\\OneDrive\\Desktop\\School\\WebServer\\FinalProject\\Ch09Ex1NFLTeams\\NFLTeams\\NFLTeams.csproj",
+      "projectName": "NFLTeams",
+      "projectPath": "C:\\Users\\hempk\\OneDrive\\Desktop\\School\\WebServer\\FinalProject\\Ch09Ex1NFLTeams\\NFLTeams\\NFLTeams.csproj",
       "packagesPath": "C:\\Users\\hempk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hempk\\OneDrive\\Desktop\\Movies7\\NFLTeams\\obj\\",
+      "outputPath": "C:\\Users\\hempk\\OneDrive\\Desktop\\School\\WebServer\\FinalProject\\Ch09Ex1NFLTeams\\NFLTeams\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hempk\\AppData\\Roaming\\NuGet\\NuGet.Config",
