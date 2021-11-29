@@ -34,6 +34,7 @@ namespace NFLTeams.Controllers
                         .Include(t => t.Division)
                         .Where(t => ids.Contains(t.TeamID)).ToList();
                 session.SetMyTeams(myteams);
+                int k = 0;
             }
 
             var model = new TeamListViewModel
@@ -98,3 +99,4 @@ namespace NFLTeams.Controllers
         }
     }
 }
+//test line 
