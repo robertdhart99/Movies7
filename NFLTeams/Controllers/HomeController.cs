@@ -9,9 +9,9 @@ namespace NFLTeams.Controllers
 {
     public class HomeController : Controller
     {
-        private TeamContext context;
+        private MovieContext context;
 
-        public HomeController(TeamContext ctx)
+        public HomeController(MovieContext ctx)
         {
             context = ctx;
         }

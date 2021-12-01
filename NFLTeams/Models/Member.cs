@@ -1,8 +1,8 @@
 ﻿namespace NFLTeams.Models
 {
-    public class Conference
+    public class Member
     {
-        public string ConferenceID { get; set; }
+        public string MemberID { get; set; }
         public string Name { get; set; }
     }
 }

@@ -19,7 +19,7 @@
         </div>
         <h3 class="mt-3">Division</h3>
         <div class="list-group">
-            @foreach (Division div in Model.Divisions)
+            @foreach (Member div in Model.Divisions)
             {
                 <a asp-action="Index"
                    asp-route-activeConf="@Model.ActiveConf"

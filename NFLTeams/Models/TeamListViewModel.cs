@@ -21,12 +21,12 @@ namespace NFLTeams.Models
             }
         }
 
-        private List<Division> divisions;
-        public List<Division> Divisions {
+        private List<Member> divisions;
+        public List<Member> Divisions {
             get => divisions; 
             set {
-                divisions = new List<Division> {
-                    new Division { DivisionID = "all", Name = "All" }
+                divisions = new List<Member> {
+                    new Member { DivisionID = "all", Name = "All" }
                 };
                 divisions.AddRange(value);
             }

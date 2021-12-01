@@ -25,8 +25,8 @@ namespace NFLTeams
 
             services.AddControllersWithViews().AddNewtonsoftJson();
 
-            services.AddDbContext<TeamContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("TeamContext")));
+            services.AddDbContext<MovieContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("MovieContext")));
         }
 
         // Use this method to configure the HTTP request pipeline.

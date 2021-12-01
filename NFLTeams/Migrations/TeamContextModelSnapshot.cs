@@ -7,7 +7,7 @@ using NFLTeams.Models;
 
 namespace Ch08NFLTeams1.Migrations
 {
-    [DbContext(typeof(TeamContext))]
+    [DbContext(typeof(MovieContext))]
     partial class TeamContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

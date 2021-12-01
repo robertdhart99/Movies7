@@ -8,7 +8,7 @@ using NFLTeams.Models;
 
 namespace Ch08NFLTeams1.Migrations
 {
-    [DbContext(typeof(TeamContext))]
+    [DbContext(typeof(MovieContext))]
     [Migration("20190606185036_InitialCreate")]
     partial class InitialCreate
     {

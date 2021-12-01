@@ -1,8 +1,8 @@
 ﻿namespace NFLTeams.Models
 {
-    public class Division
+    public class Genre
     {
-        public string DivisionID { get; set; }
+        public string GenreID { get; set; }
         public string Name { get; set; }
     }
 }
