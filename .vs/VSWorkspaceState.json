@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\NFLTeams"
+    "\\Movies7",
+    "\\Movies7\\Views",
+    "\\Movies7\\Views\\Home"
   ],
-  "SelectedNode": "\\Ch09Ex1NFLTeams.sln",
+  "SelectedNode": "\\Movies7\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

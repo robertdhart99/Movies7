@@ -52,7 +52,7 @@ namespace Movies7.Controllers
             if (activeMember != "all")
                 query = query.Where(
                     t => t.Member.MemberID.ToLower() == activeMember.ToLower());
-            model.Movie = query.ToList();
+            model.Movies = query.ToList();
 
             return View(model);
         }

@@ -27,7 +27,7 @@
 <div class="row">
     <div class="col-8 offset-2">
         <ul class="list-group">
-            @foreach (Movies Movie in Model.Movies)
+            @foreach (Movie movie in Model.Movies)
             {
                 <li class="list-group-item">
                     <div class="row">
@@ -38,7 +38,7 @@
                             @movie.Name
                         </div>
                         <div class="col-sm-4">
-                            @movie.genres.Name @movie.members.Name
+                            @movie.Genre.Name @movie.Member.Name
                         </div>
                     </div>
                 </li>
