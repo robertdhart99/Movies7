@@ -1,43 +1,43 @@
-﻿@model TeamListViewModel
+﻿@model MovieListViewModel
 @{
-    ViewData["Title"] = "NFL Teams";
+    ViewData["Title"] = "Movies";
 }
 
 <div class="row">
     <div class="col-sm-3">
-        <h3 class="mt-3">Conference</h3>
+        <h3 class="mt-3">Genres</h3>
         <div class="list-group">
-            @foreach (Conference conf in Model.Conferences)
+            @foreach (Genre g in Model.Genres)
             {
                 <a asp-action="Index"
-                   asp-route-activeConf="@conf.ConferenceID"
-                   asp-route-activeDiv="@Model.ActiveDiv"
-                   class="list-group-item @Model.CheckActiveConf(conf.ConferenceID)">
-                    @conf.Name
+                   asp-route-activeGenre="@g.GenreID"
+                   asp-route-activeMember="@Model.ActiveMember"
+                   class="list-group-item @Model.CheckActiveGenre(g.GenreID)">
+                    @g.Name
                 </a>
             }
         </div>
-        <h3 class="mt-3">Division</h3>
+        <h3 class="mt-3">Members</h3>
         <div class="list-group">
-            @foreach (Member div in Model.Divisions)
+            @foreach (Member m in Model.Members)
             {
                 <a asp-action="Index"
-                   asp-route-activeConf="@Model.ActiveConf"
-                   asp-route-activeDiv="@div.DivisionID"
-                   class="list-group-item @Model.CheckActiveDiv(div.DivisionID)">
-                    @div.Name
+                   asp-route-activeGenre="@m.MemberID"
+                   asp-route-activeMember="@Model.ActiveMember"
+                   class="list-group-item @Model.CheckActiveMember(m.MemberID)">
+                    @m.Name
                 </a>
             }
         </div>
     </div>
     <div class="col-sm-9">
         <ul class="list-inline">
-            @foreach (Team team in Model.Teams)
+            @foreach (Movie movie in Model.Movies)
             {
                 <li class="list-inline-item">
-                    <a asp-action="Details" asp-route-id="@team.TeamID">
-                        <img src="~/images/@team.LogoImage" alt="@team.Name"
-                                title="@team.Name | @team.Conference.Name @team.Division.Name" />
+                    <a asp-action="Details" asp-route-id="@movie.MovieID">
+                        <img src="~/images/@movie.LogoImage" alt="@movie.Name"
+                                title="@movie.Name | @movie.Genre.Name @team.Member.Name" />
                     </a>
                 </li>
             }

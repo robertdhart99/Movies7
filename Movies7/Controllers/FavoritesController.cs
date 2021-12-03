@@ -10,12 +10,12 @@ namespace Movies7.Controllers
         [HttpGet]
         public ViewResult Index()
         {
-            var session = new NFLSession(HttpContext.Session);
-            var model = new TeamListViewModel
+            var session = new Movies7Session(HttpContext.Session);
+            var model = new MovieListViewModel
             {
-                ActiveConf = session.GetActiveConf(),
-                ActiveDiv = session.GetActiveDiv(),
-                Teams = session.GetMyTeams(),
+                ActiveGenre = session.GetActiveGenre(),
+                ActiveMember = session.GetActiveMember(),
+                Movies = session.GetMyMovies(),
                 UserName = session.GetName()
             };
 
@@ -25,19 +25,19 @@ namespace Movies7.Controllers
         [HttpPost]
         public RedirectToActionResult Delete()
         {
-            var session = new NFLSession(HttpContext.Session);
-            var cookies = new NFLCookies(HttpContext.Response.Cookies);
+            var session = new Movies7Session(HttpContext.Session);
+            var cookies = new Movies7Cookies(HttpContext.Response.Cookies);
 
-            session.RemoveMyTeams();
-            cookies.RemoveMyTeamIds();
+            session.RemoveMyMovies();
+            cookies.RemoveMyMovieIds();
 
-            TempData["message"] = "Favorite teams cleared";
+            TempData["message"] = "Favorite movies cleared";
 
             return RedirectToAction("Index", "Home",
                 new {
-                    ActiveConf = session.GetActiveConf(),
-                    ActiveDiv = session.GetActiveDiv()
+                    ActiveGenre = session.GetActiveGenre(),
+                    ActiveMember = session.GetActiveMember()
                 });
         }
     }
-} 
+}  

@@ -21,15 +21,15 @@
             @* show link to Favorites page unless on Favorites page *@
             @if (!ViewContext.View.Path.Contains("Favorites"))
             {
-                var session = new NFLSession(Context.Session);
+                var session = new Movies7Session(Context.Session);
                 <h5 class="bg-info p-2">
                     <a asp-controller="Favorites" asp-action="Index" class="text-white">
                         @(session.GetName() == null ? "My" : session.GetName() + "'s")
-                        Favorite Teams
+                        Favorite Movies
                     </a>
 
                     @* get number of Favorite teams from session and display in badge *@
-                    <span class="badge badge-light">@(session.GetMyTeamCount())</span>
+                    <span class="badge badge-light">@(session.GetMyMovieCount())</span>
                 </h5>
             }
         </header>

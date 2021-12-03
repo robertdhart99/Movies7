@@ -1,4 +1,4 @@
-﻿/*
+﻿
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 
@@ -20,4 +20,4 @@ namespace Movies7.Models
     }
 }
 
-*/
+

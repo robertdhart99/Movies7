@@ -23,3 +23,12 @@ C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorTargetAssemblyInfo
 C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorTargetAssemblyInfo.cs
 C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.dll
 C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.pdb
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.csprojAssemblyReference.cache
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.AssemblyInfoInputs.cache
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.AssemblyInfo.cs
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.csproj.CoreCompileInputs.cache
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorAssemblyInfo.cache
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorAssemblyInfo.cs
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.dll
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.pdb

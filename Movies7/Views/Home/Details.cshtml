@@ -1,4 +1,4 @@
-﻿@model TeamViewModel
+﻿@model MovieViewModel
 @{
     ViewData["Title"] = "Team Details";
 }
@@ -9,24 +9,24 @@
     <div class="col-6 offset-3">
         <ul class="list-group text-center">
             <li class="list-group-item">
-                <img src="~/images/@Model.Team.LogoImage" alt="" />
-                <h3>@Model.Team.Name</h3>
+                <img src="~/images/@Model.Movie.LogoImage" alt="" />
+                <h3>@Model.Movie.Name</h3>
             </li>
             <li class="list-group-item">
-                <h4>Conference: @Model.Team.Conference.Name</h4>
+                <h4>Conference: @Model.Movie.Genre.Name</h4>
             </li>
             <li class="list-group-item">
-                <h4>Division: @Model.Team.Division.Name</h4>
+                <h4>Division: @Model.Movie.Member.Name</h4>
             </li>
             <li class="list-group-item">
                 <form asp-action="Add" method="post">
                     <a asp-action="Index" class="btn btn-primary"
-                       asp-route-activeConf="@Model.ActiveConf"
-                       asp-route-activeDiv="@Model.ActiveDiv">Return to Home Page</a>
+                       asp-route-activeGenre="@Model.ActiveGenre"
+                       asp-route-activeMember="@Model.ActiveMember">Return to Home Page</a>
                     <button type="submit" class="btn btn-primary">
                         Add to Favorites
                     </button>
-                    <input type="hidden" asp-for="Team.TeamID" />
+                    <input type="hidden" asp-for="Movie.MovieID" />
                 </form>
             </li>
         </ul>

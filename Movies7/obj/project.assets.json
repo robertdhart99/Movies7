@@ -5126,19 +5126,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hempk\\.nuget\\packages\\": {}
+    "C:\\Users\\Bobby\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MoviesProject\\Movies7\\Movies7.csproj",
+      "projectUniqueName": "C:\\Users\\Bobby\\source\\repos\\Movies7\\Movies7\\Movies7.csproj",
       "projectName": "Movies7",
-      "projectPath": "C:\\MoviesProject\\Movies7\\Movies7.csproj",
-      "packagesPath": "C:\\Users\\hempk\\.nuget\\packages\\",
-      "outputPath": "C:\\MoviesProject\\Movies7\\obj\\",
+      "projectPath": "C:\\Users\\Bobby\\source\\repos\\Movies7\\Movies7\\Movies7.csproj",
+      "packagesPath": "C:\\Users\\Bobby\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bobby\\source\\repos\\Movies7\\Movies7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hempk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bobby\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5197,7 +5197,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -17,84 +17,84 @@ namespace Movies7.Controllers
             context = ctx;
         }
 
-        public IActionResult Index(string activeConf = "all", string activeDiv = "all")
+        public IActionResult Index(string activeGenre = "all", string activeMember = "all")
         {
-            var session = new NFLSession(HttpContext.Session);
-            session.SetActiveConf(activeConf);
-            session.SetActiveDiv(activeDiv);
+            var session = new Movies7Session(HttpContext.Session);
+            session.SetActiveGenre(activeGenre);
+            session.SetActiveMember(activeMember);
 
             // if no count value in session, use data in cookie to restore fave teams in session 
-            int? count = session.GetMyTeamCount();
+            int? count = session.GetMyMovieCount();
             if (count == null) {
-                var cookies = new NFLCookies(HttpContext.Request.Cookies);
-                string[] ids = cookies.GetMyTeamIds();
+                var cookies = new Movies7Cookies(HttpContext.Request.Cookies);
+                string[] ids = cookies.GetMyMovieIds();
 
-                List<Team> myteams = new List<Team>(); 
+                List<Movie> mymovies = new List<Movie>(); 
                 if (ids.Length > 0)
-                    myteams = context.Teams.Include(t => t.Conference)
-                        .Include(t => t.Division)
-                        .Where(t => ids.Contains(t.TeamID)).ToList();
-                session.SetMyTeams(myteams);
+                    mymovies = context.Movies.Include(t => t.Genre)
+                        .Include(t => t.Member)
+                        .Where(t => ids.Contains(t.MovieID)).ToList();
+                session.SetMyMovies(mymovies);
             }
 
-            var model = new TeamListViewModel
+            var model = new MovieListViewModel
             {
-                ActiveConf = activeConf,
-                ActiveDiv = activeDiv,
-                Conferences = context.Conferences.ToList(),
-                Divisions = context.Divisions.ToList()
+                ActiveGenre = activeGenre,
+                ActiveMember = activeMember,
+                Genres = context.Genres.ToList(),
+                Members = context.Members.ToList()
             };
 
-            IQueryable<Team> query = context.Teams;
-            if (activeConf != "all")
+            IQueryable<Movie> query = context.Movies;
+            if (activeGenre != "all")
                 query = query.Where(
-                    t => t.Conference.ConferenceID.ToLower() == activeConf.ToLower());
-            if (activeDiv != "all")
+                    t => t.Genre.GenreID.ToLower() == activeGenre.ToLower());
+            if (activeMember != "all")
                 query = query.Where(
-                    t => t.Division.DivisionID.ToLower() == activeDiv.ToLower());
-            model.Teams = query.ToList();
+                    t => t.Member.MemberID.ToLower() == activeMember.ToLower());
+            model.Movie = query.ToList();
 
             return View(model);
         }
 
         public IActionResult Details(string id)
         {
-            var session = new NFLSession(HttpContext.Session);
-            var model = new TeamViewModel
+            var session = new Movies7Session(HttpContext.Session);
+            var model = new MovieViewModel
             {
-                Team = context.Teams
-                    .Include(t => t.Conference)
-                    .Include(t => t.Division)
-                    .FirstOrDefault(t => t.TeamID == id),
-                ActiveDiv = session.GetActiveDiv(),
-                ActiveConf = session.GetActiveConf()
+                Movie = context.Movies
+                    .Include(t => t.Genre)
+                    .Include(t => t.Member)
+                    .FirstOrDefault(t => t.MovieID == id),
+                ActiveMember = session.GetActiveMember(),
+                ActiveGenre = session.GetActiveGenre()
             };
             return View(model);
         }
 
         [HttpPost]
-        public RedirectToActionResult Add(TeamViewModel model)
+        public RedirectToActionResult Add(MovieViewModel model)
         {
-            model.Team = context.Teams
-                .Include(t => t.Conference)
-                .Include(t => t.Division)
-                .Where(t => t.TeamID == model.Team.TeamID)
+            model.Movie = context.Movies
+                .Include(t => t.Genre)
+                .Include(t => t.Member)
+                .Where(t => t.MovieID == model.Movie.MovieID)
                 .FirstOrDefault();
 
-            var session = new NFLSession(HttpContext.Session);
-            var teams = session.GetMyTeams();
-            teams.Add(model.Team);
-            session.SetMyTeams(teams);
+            var session = new Movies7Session(HttpContext.Session);
+            var movies = session.GetMyMovies();
+            movies.Add(model.Movie);
+            session.SetMyMovies(movies);
 
-            var cookies = new NFLCookies(HttpContext.Response.Cookies);
-            cookies.SetMyTeamIds(teams);
+            var cookies = new Movies7Cookies(HttpContext.Response.Cookies);
+            cookies.SetMyMoviesIds(movies);
 
-            TempData["message"] = $"{model.Team.Name} added to your favorites";
+            TempData["message"] = $"{model.Movie.Name} added to your favorites";
 
             return RedirectToAction("Index",
                 new {
-                    ActiveConf = session.GetActiveConf(),
-                    ActiveDiv = session.GetActiveDiv()
+                    ActiveGenre = session.GetActiveGenre(),
+                    ActiveMember = session.GetActiveMember()
                 });
         }
     }

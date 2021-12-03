@@ -1,4 +1,4 @@
-﻿@model TeamListViewModel
+﻿@model MovieListViewModel
 @{
     ViewData["Title"] = "Name Change";
 }
@@ -9,8 +9,8 @@
         <input asp-for="@Model.UserName" placeholder="Type name here" class="mb-3" />
         <br />
         <a asp-action="Index" asp-controller="Home" class="btn btn-primary"
-           asp-route-activeConf ="@Model.ActiveConf" 
-           asp-route-activeDiv="@Model.ActiveDiv">
+           asp-route-activeGenre ="@Model.ActiveGenre" 
+           asp-route-activeMember="@Model.ActiveMember">
             Back to Home Page
         </a>
         <button type="submit" class="btn btn-primary">
