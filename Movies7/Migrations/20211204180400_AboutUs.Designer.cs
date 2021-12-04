@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Movies7.Models;
 
 namespace Movies7.Migrations
 {
     [DbContext(typeof(MovieContext))]
-    partial class MovieContextModelSnapshot : ModelSnapshot
+    [Migration("20211204180400_AboutUs")]
+    partial class AboutUs
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -80,7 +82,7 @@ namespace Movies7.Migrations
                             MemberID = "bea",
                             Bio = "I like cars, watching anime and playing video games",
                             Major = "Information Techology",
-                            Name = "Chevaux Beasley",
+                            Name = "Beasley Chevaux",
                             Year = "Senior"
                         },
                         new
@@ -88,23 +90,23 @@ namespace Movies7.Migrations
                             MemberID = "bro",
                             Bio = "I'm a nerd.",
                             Major = "Information Techology - Software Development",
-                            Name = "Chris Brown",
+                            Name = "Brown Chris",
                             Year = "Junior"
                         },
                         new
                         {
                             MemberID = "dan",
-                            Bio = "I am groot",
+                            Bio = "I am Ibukun Daniel but I also go by I.B.K",
                             Major = "Information Techology - Software Development || CS minor",
-                            Name = "Ibukun Daniel",
+                            Name = "Daniel Ibukun",
                             Year = "Junior"
                         },
                         new
                         {
                             MemberID = "har",
-                            Bio = "I go by Bobby. I am about to finish my IT software dev and cybersecurity degrees. I love spending time outdoors but also like playing games.",
+                            Bio = "I am Robert Hart but I go by Bobby. I am about to finish my IT software dev and cybersecurity degrees. I love spending time outdoors but also like playing games.",
                             Major = "Information Techology - Software Development || Cyber Security",
-                            Name = "Robert Hart",
+                            Name = "Hart Robert",
                             Year = "Senior"
                         },
                         new
@@ -112,7 +114,7 @@ namespace Movies7.Migrations
                             MemberID = "emi",
                             Bio = "I'm a weeb and a furry.",
                             Major = "Information Techology - Software Development",
-                            Name = "Emily Hempker",
+                            Name = "Hempker Emily",
                             Year = "Junior"
                         });
                 });

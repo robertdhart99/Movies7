@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Models",
-    "\\obj\\Debug"
+    "\\Models"
   ],
+  "SelectedNode": "\\Models\\MovieContext.cs",
   "PreviewInSolutionExplorer": false
 }

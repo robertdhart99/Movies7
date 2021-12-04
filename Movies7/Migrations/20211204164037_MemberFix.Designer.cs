@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Movies7.Models;
 
 namespace Movies7.Migrations
 {
     [DbContext(typeof(MovieContext))]
-    partial class MovieContextModelSnapshot : ModelSnapshot
+    [Migration("20211204164037_MemberFix")]
+    partial class MemberFix
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -58,16 +60,7 @@ namespace Movies7.Migrations
                     b.Property<string>("MemberID")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Bio")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Major")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Year")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("MemberID");
@@ -78,42 +71,27 @@ namespace Movies7.Migrations
                         new
                         {
                             MemberID = "bea",
-                            Bio = "I like cars, watching anime and playing video games",
-                            Major = "Information Techology",
-                            Name = "Chevaux Beasley",
-                            Year = "Senior"
+                            Name = "Beasley Chevaux"
                         },
                         new
                         {
                             MemberID = "bro",
-                            Bio = "I'm a nerd.",
-                            Major = "Information Techology - Software Development",
-                            Name = "Chris Brown",
-                            Year = "Junior"
+                            Name = "Brown Chistopher"
                         },
                         new
                         {
                             MemberID = "dan",
-                            Bio = "I am groot",
-                            Major = "Information Techology - Software Development || CS minor",
-                            Name = "Ibukun Daniel",
-                            Year = "Junior"
+                            Name = "Daniel Ibukunoluwa"
                         },
                         new
                         {
                             MemberID = "har",
-                            Bio = "I go by Bobby. I am about to finish my IT software dev and cybersecurity degrees. I love spending time outdoors but also like playing games.",
-                            Major = "Information Techology - Software Development || Cyber Security",
-                            Name = "Robert Hart",
-                            Year = "Senior"
+                            Name = "Hart Robert"
                         },
                         new
                         {
                             MemberID = "emi",
-                            Bio = "I'm a weeb and a furry.",
-                            Major = "Information Techology - Software Development",
-                            Name = "Emily Hempker",
-                            Year = "Junior"
+                            Name = "Hempker Emily"
                         });
                 });
 
@@ -147,7 +125,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "shrek",
                             GenreID = "com",
-                            LogoImage = "shrek.png",
+                            LogoImage = "",
                             MemberID = "emi",
                             Name = "Shrek"
                         },
@@ -155,7 +133,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "shrek2",
                             GenreID = "com",
-                            LogoImage = "shrek_2.png",
+                            LogoImage = "",
                             MemberID = "emi",
                             Name = "Shrek 2"
                         },
@@ -163,7 +141,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "shrek3",
                             GenreID = "com",
-                            LogoImage = "shrek_3.png",
+                            LogoImage = "",
                             MemberID = "emi",
                             Name = "Shrek 3"
                         },
@@ -171,7 +149,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "shrek4",
                             GenreID = "com",
-                            LogoImage = "shrek_4.png",
+                            LogoImage = "",
                             MemberID = "emi",
                             Name = "Shrek 4"
                         },
@@ -179,7 +157,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "silent",
                             GenreID = "hor",
-                            LogoImage = "silent_hill.png",
+                            LogoImage = "",
                             MemberID = "emi",
                             Name = "Silent Hill"
                         },
@@ -187,7 +165,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "long",
                             GenreID = "com",
-                            LogoImage = "longest_yard.png",
+                            LogoImage = "",
                             MemberID = "har",
                             Name = "Longest Yard"
                         },
@@ -195,7 +173,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "pirates",
                             GenreID = "act",
-                            LogoImage = "pirates_caribbean.png",
+                            LogoImage = "",
                             MemberID = "har",
                             Name = "Pirates of the Caribbean"
                         },
@@ -203,7 +181,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "October",
                             GenreID = "dra",
-                            LogoImage = "october_sky.png",
+                            LogoImage = "",
                             MemberID = "har",
                             Name = "October Sky"
                         },
@@ -211,15 +189,31 @@ namespace Movies7.Migrations
                         {
                             MovieID = "princess",
                             GenreID = "dra",
-                            LogoImage = "princess_bride.png",
+                            LogoImage = "",
                             MemberID = "har",
                             Name = "Princess Bride"
                         },
                         new
                         {
+                            MovieID = "anchor",
+                            GenreID = "com",
+                            LogoImage = "",
+                            MemberID = "har",
+                            Name = "Anchor Man"
+                        },
+                        new
+                        {
+                            MovieID = "dodgeball",
+                            GenreID = "com",
+                            LogoImage = "",
+                            MemberID = "har",
+                            Name = "Dodgeball"
+                        },
+                        new
+                        {
                             MovieID = "castle",
                             GenreID = "act",
-                            LogoImage = "castle_cagliostro.png",
+                            LogoImage = "",
                             MemberID = "bro",
                             Name = "Castle Cagliostro"
                         },
@@ -227,7 +221,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "fail",
                             GenreID = "hor",
-                            LogoImage = "fail_safe_64.png",
+                            LogoImage = "",
                             MemberID = "bro",
                             Name = "Fail Safe"
                         },
@@ -235,7 +229,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "saving",
                             GenreID = "act",
-                            LogoImage = "saving_private_ryan.png",
+                            LogoImage = "",
                             MemberID = "bro",
                             Name = "Saving Private Ryan"
                         },
@@ -243,7 +237,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "arsenic",
                             GenreID = "hor",
-                            LogoImage = "arsenic_old_lace.png",
+                            LogoImage = "",
                             MemberID = "bro",
                             Name = "Arsenic and Old Lace"
                         },
@@ -251,7 +245,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "santa",
                             GenreID = "com",
-                            LogoImage = "santa_clause.png",
+                            LogoImage = "",
                             MemberID = "bro",
                             Name = "The Santa Clause"
                         },
@@ -259,7 +253,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "fast",
                             GenreID = "act",
-                            LogoImage = "2_fast_2_furious.png",
+                            LogoImage = "",
                             MemberID = "bea",
                             Name = "2 Fast 2 Furious"
                         },
@@ -267,7 +261,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "nemo",
                             GenreID = "com",
-                            LogoImage = "finding_nemo.png",
+                            LogoImage = "",
                             MemberID = "bea",
                             Name = "Finding Nemo"
                         },
@@ -275,7 +269,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "black",
                             GenreID = "act",
-                            LogoImage = "black_panther.png",
+                            LogoImage = "",
                             MemberID = "bea",
                             Name = "Black Panther"
                         },
@@ -283,7 +277,7 @@ namespace Movies7.Migrations
                         {
                             MovieID = "blonde",
                             GenreID = "com",
-                            LogoImage = "legally_blonde.png",
+                            LogoImage = "",
                             MemberID = "bea",
                             Name = "Legally Blonde"
                         },
@@ -291,49 +285,9 @@ namespace Movies7.Migrations
                         {
                             MovieID = "dragon",
                             GenreID = "act",
-                            LogoImage = "db_super_broly.png",
+                            LogoImage = "",
                             MemberID = "bea",
                             Name = "Dragon Ball Super"
-                        },
-                        new
-                        {
-                            MovieID = "rn",
-                            GenreID = "act",
-                            LogoImage = "red_notice.png",
-                            MemberID = "dan",
-                            Name = "Red Notice"
-                        },
-                        new
-                        {
-                            MovieID = "hog",
-                            GenreID = "dra",
-                            LogoImage = "house_gucci.png",
-                            MemberID = "dan",
-                            Name = "House of Gucci"
-                        },
-                        new
-                        {
-                            MovieID = "ttb",
-                            GenreID = "dra",
-                            LogoImage = "train_to_busan.png",
-                            MemberID = "dan",
-                            Name = "Train to Busan"
-                        },
-                        new
-                        {
-                            MovieID = "par",
-                            GenreID = "hor",
-                            LogoImage = "parasite.png",
-                            MemberID = "dan",
-                            Name = "Parasite"
-                        },
-                        new
-                        {
-                            MovieID = "free",
-                            GenreID = "com",
-                            LogoImage = "free_guy.png",
-                            MemberID = "dan",
-                            Name = "Free Guy"
                         });
                 });
 

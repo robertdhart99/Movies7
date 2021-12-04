@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Movies7.Models;
 
 namespace Movies7.Migrations
 {
     [DbContext(typeof(MovieContext))]
-    partial class MovieContextModelSnapshot : ModelSnapshot
+    [Migration("20211204185718_NameSwitch")]
+    partial class NameSwitch
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -94,7 +96,7 @@ namespace Movies7.Migrations
                         new
                         {
                             MemberID = "dan",
-                            Bio = "I am groot",
+                            Bio = "I am Ibukun Daniel but I also go by I.B.K",
                             Major = "Information Techology - Software Development || CS minor",
                             Name = "Ibukun Daniel",
                             Year = "Junior"
@@ -102,7 +104,7 @@ namespace Movies7.Migrations
                         new
                         {
                             MemberID = "har",
-                            Bio = "I go by Bobby. I am about to finish my IT software dev and cybersecurity degrees. I love spending time outdoors but also like playing games.",
+                            Bio = "I am Robert Hart but I go by Bobby. I am about to finish my IT software dev and cybersecurity degrees. I love spending time outdoors but also like playing games.",
                             Major = "Information Techology - Software Development || Cyber Security",
                             Name = "Robert Hart",
                             Year = "Senior"

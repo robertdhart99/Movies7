@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Movies7.Models;
 
 namespace Movies7.Migrations
 {
     [DbContext(typeof(MovieContext))]
-    partial class MovieContextModelSnapshot : ModelSnapshot
+    [Migration("20211204171213_Pictures")]
+    partial class Pictures
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -58,16 +60,7 @@ namespace Movies7.Migrations
                     b.Property<string>("MemberID")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Bio")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Major")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Year")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("MemberID");
@@ -78,42 +71,27 @@ namespace Movies7.Migrations
                         new
                         {
                             MemberID = "bea",
-                            Bio = "I like cars, watching anime and playing video games",
-                            Major = "Information Techology",
-                            Name = "Chevaux Beasley",
-                            Year = "Senior"
+                            Name = "Beasley Chevaux"
                         },
                         new
                         {
                             MemberID = "bro",
-                            Bio = "I'm a nerd.",
-                            Major = "Information Techology - Software Development",
-                            Name = "Chris Brown",
-                            Year = "Junior"
+                            Name = "Brown Chistopher"
                         },
                         new
                         {
                             MemberID = "dan",
-                            Bio = "I am groot",
-                            Major = "Information Techology - Software Development || CS minor",
-                            Name = "Ibukun Daniel",
-                            Year = "Junior"
+                            Name = "Daniel Ibukunoluwa"
                         },
                         new
                         {
                             MemberID = "har",
-                            Bio = "I go by Bobby. I am about to finish my IT software dev and cybersecurity degrees. I love spending time outdoors but also like playing games.",
-                            Major = "Information Techology - Software Development || Cyber Security",
-                            Name = "Robert Hart",
-                            Year = "Senior"
+                            Name = "Hart Robert"
                         },
                         new
                         {
                             MemberID = "emi",
-                            Bio = "I'm a weeb and a furry.",
-                            Major = "Information Techology - Software Development",
-                            Name = "Emily Hempker",
-                            Year = "Junior"
+                            Name = "Hempker Emily"
                         });
                 });
 
@@ -294,46 +272,6 @@ namespace Movies7.Migrations
                             LogoImage = "db_super_broly.png",
                             MemberID = "bea",
                             Name = "Dragon Ball Super"
-                        },
-                        new
-                        {
-                            MovieID = "rn",
-                            GenreID = "act",
-                            LogoImage = "red_notice.png",
-                            MemberID = "dan",
-                            Name = "Red Notice"
-                        },
-                        new
-                        {
-                            MovieID = "hog",
-                            GenreID = "dra",
-                            LogoImage = "house_gucci.png",
-                            MemberID = "dan",
-                            Name = "House of Gucci"
-                        },
-                        new
-                        {
-                            MovieID = "ttb",
-                            GenreID = "dra",
-                            LogoImage = "train_to_busan.png",
-                            MemberID = "dan",
-                            Name = "Train to Busan"
-                        },
-                        new
-                        {
-                            MovieID = "par",
-                            GenreID = "hor",
-                            LogoImage = "parasite.png",
-                            MemberID = "dan",
-                            Name = "Parasite"
-                        },
-                        new
-                        {
-                            MovieID = "free",
-                            GenreID = "com",
-                            LogoImage = "free_guy.png",
-                            MemberID = "dan",
-                            Name = "Free Guy"
                         });
                 });
 
