@@ -3,8 +3,9 @@
     "",
     "\\Movies7",
     "\\Movies7\\Views",
+    "\\Movies7\\Views\\Favorites",
     "\\Movies7\\Views\\Home"
   ],
-  "SelectedNode": "\\Movies7\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\Movies7\\Views\\Favorites\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
