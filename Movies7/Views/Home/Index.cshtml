@@ -35,7 +35,7 @@
         {
             @if (m.MemberID != "all" && m.MemberID == Model.ActiveMember)
             {
-                <h4>
+                <h4 id="name">
                    Name: @m.Name
                 </h4>
                 <br />
@@ -51,7 +51,7 @@
                    Bio: @m.Bio
                 </h4>
                 <br />
-                <h4>
+                <h4 id="FavMov">
                    Favorite Movies:
                 </h4>
                 <br />
