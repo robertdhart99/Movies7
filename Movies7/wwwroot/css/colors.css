@@ -1,0 +1,17 @@
+﻿#movieText {
+    background-color:rebeccapurple !important;
+    color: black;
+}
+#Favorites {
+    background-color: #669933 !important;
+}
+
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#name{
+    color: rebeccapurple !important;
+}
+#FavMov {
+    color: #669933 !important;
+}

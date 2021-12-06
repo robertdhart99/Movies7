@@ -1,0 +1,96 @@
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.csproj.AssemblyReference.cache
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.GeneratedMSBuildEditorConfig.editorconfig
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.AssemblyInfoInputs.cache
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.AssemblyInfo.cs
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.csproj.CoreCompileInputs.cache
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.MvcApplicationPartsAssemblyInfo.cache
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorAssemblyInfo.cache
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorAssemblyInfo.cs
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\staticwebassets\Movies7.StaticWebAssets.Manifest.cache
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\staticwebassets\Movies7.StaticWebAssets.xml
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\scopedcss\bundle\Movies7.styles.css
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.TagHelpers.input.cache
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.TagHelpers.output.cache
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorCoreGenerate.cache
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\Favorites\Index.cshtml.g.cs
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\Name\Index.cshtml.g.cs
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorTargetAssemblyInfo.cache
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorTargetAssemblyInfo.cs
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.dll
+C:\MoviesProject\Movies7\obj\Debug\netcoreapp3.1\Movies7.pdb
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.csprojAssemblyReference.cache
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.AssemblyInfoInputs.cache
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.AssemblyInfo.cs
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.csproj.CoreCompileInputs.cache
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorAssemblyInfo.cache
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorAssemblyInfo.cs
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.dll
+C:\Users\Bobby\source\repos\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.pdb
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.csproj.AssemblyReference.cache
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.AssemblyInfoInputs.cache
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.AssemblyInfo.cs
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.csproj.CoreCompileInputs.cache
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorAssemblyInfo.cache
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorAssemblyInfo.cs
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\staticwebassets\Movies7.StaticWebAssets.Manifest.cache
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\staticwebassets\Movies7.StaticWebAssets.xml
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\scopedcss\bundle\Movies7.styles.css
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.TagHelpers.input.cache
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.TagHelpers.output.cache
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorCoreGenerate.cache
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\Favorites\Index.cshtml.g.cs
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\Name\Index.cshtml.g.cs
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorTargetAssemblyInfo.cache
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.RazorTargetAssemblyInfo.cs
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.pdb
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Movies7.exe
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Movies7.deps.json
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Movies7.runtimeconfig.json
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Movies7.runtimeconfig.dev.json
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Movies7.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Movies7.pdb
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Movies7.Views.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Movies7.Views.pdb
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.Views.pdb
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.csproj.CopyComplete
+C:\Users\ccbro\Classwork\UC Clifton\Web Application Development\Movies7\Movies7\obj\Debug\netcoreapp3.1\Movies7.genruntimeconfig.cache
