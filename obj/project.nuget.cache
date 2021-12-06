@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fW3jYTBXyRK+Onc2dwnMSShS94p1RjlkHhhGc9a8biFmP4sYZImLL0oeoROUWJmfCaJAR1Rv8NOPYDQqgrwFkw==",
+  "dgSpecHash": "nAQp17WA3yd7HhJZRqDCY8gr/qJCWj3P2mwEoZZwKImdf+geX9mWosTDsLkiJQk4PMkj78TsvGiJsq9gmY8L/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ccbro\\Classwork\\UC Clifton\\Web Application Development\\Movies7\\Movies7\\Movies7.csproj",
+  "projectFilePath": "C:\\Users\\ccbro\\Classwork\\UC Clifton\\Web Application Development\\Movies7\\Movies7.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ccbro\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.0\\microsoft.aspnetcore.jsonpatch.3.1.0.nupkg.sha512",
     "C:\\Users\\ccbro\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.0\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.0.nupkg.sha512",

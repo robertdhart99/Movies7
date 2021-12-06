@@ -5131,11 +5131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ccbro\\Classwork\\UC Clifton\\Web Application Development\\Movies7\\Movies7\\Movies7.csproj",
+      "projectUniqueName": "C:\\Users\\ccbro\\Classwork\\UC Clifton\\Web Application Development\\Movies7\\Movies7.csproj",
       "projectName": "Movies7",
-      "projectPath": "C:\\Users\\ccbro\\Classwork\\UC Clifton\\Web Application Development\\Movies7\\Movies7\\Movies7.csproj",
+      "projectPath": "C:\\Users\\ccbro\\Classwork\\UC Clifton\\Web Application Development\\Movies7\\Movies7.csproj",
       "packagesPath": "C:\\Users\\ccbro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ccbro\\Classwork\\UC Clifton\\Web Application Development\\Movies7\\Movies7\\obj\\",
+      "outputPath": "C:\\Users\\ccbro\\Classwork\\UC Clifton\\Web Application Development\\Movies7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ccbro\\AppData\\Roaming\\NuGet\\NuGet.Config",
